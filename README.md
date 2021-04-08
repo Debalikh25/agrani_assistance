@@ -18,4 +18,28 @@ Agrani can help you with :
 - Mathematical calculations
 - Play music from your favourites directory
 - Etc
+---
+
+### Steps to setup : ###
+1. Clone this repository using : `git clone https://github.com/Debalikh25/agrani_assistance.git` in your local directory(create the local directory first).
+2. Install the requirmnets using : `pip install -r requirements.txt` in the terminal.
+3. Open the script: `agrani.py` with your prefered code editor.
+4. Type the paths for the variables : `application_msword_path = ""(where your ms word is installed) , screen_shot = ""(for saving screenshots) , choose_your_songs_directory=""`.
+5. Type your email : `your_email = ""`. Generate a gmail app password(steps commented inside script) for your email and type that password in `your_gmail_generated_app_password_here = "" ` variable.
+6. Go to `https://newsapi.org/` and `https://products.wolframalpha.com/api/` , sign in and generate your API key  for both.
+7. Paste your API keys inside the `news_api_id=""` and `wolframalpha_api_id = ""` variables. 
+8. Done !(You are ready to go)
+---
+ ### Note: ### 
+ if you face error while installing PyAudio package then we have provided the file for PyAudio in the repo:
+  first -> pipwin -> `pip install pipwin`.
+ Install it using : `pip install PyAudio-0.2.11-cp39-cp39-win_amd64.whl` or `pipwin install PyAudio-0.2.11-cp39-cp39-win_amd64.whl`.
+
+---
+
+After all the steps mentioned above you can create a windows executable file from the script so as to not open your editor again and again.
+1. install pyinstaller - > `pip install pyinstaller`
+2. Navigate to your agrani directory  , then  -> `pyinstaller agrani.py`
+3. An .exe file will be created.
+ 
 
