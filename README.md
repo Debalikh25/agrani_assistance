@@ -1,4 +1,4 @@
-# agrani_assistance
+# Agrani Assistance
 ![agrani](https://github.com/Debalikh25/agrani_assistance/blob/master/giticon.png)
 
 An AI based speech recognition assistance created with the help of python. Though it is availabe in the market but we added some extra functionalities onto it. We named
